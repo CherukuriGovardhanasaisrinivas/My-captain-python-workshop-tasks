@@ -1,5 +1,3 @@
-fn= input("Enter Filename: ")
-
-f = fn.split(".")
-
-print ("Extension of the file is : " + f[-1])
+filename = input("Input the Filename: ")
+f_extns = filename.split(".")
+print ("The extension of the file is : " + repr(f_extns[-1]))
